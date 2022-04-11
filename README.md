@@ -43,7 +43,7 @@ Navigate to a Crunchyroll video, then click the extension and change the status 
 Subtitles should start appearing, if not, refresh the page and try the process again.
 
 #### Stopping an active transcribing
-Closing or navigating to another tab should stop the transcribing.
+Closing the tab should and reloading the extension stop the transcribing.
 
 ## Screenshots
 <img src="https://media.giphy.com/media/DBCzvE37hDRvg6sN3b/giphy.gif">
