@@ -1,6 +1,6 @@
 # Anime (or any other video) Translator
 
-<img src="img/anime_oav_banner.png" />
+<img src="https://github.com/gregorygaines/anime-aov-translator/blob/master/img/anime_oav_banner.png" />
 
 Anime OAV (Anime or any other video) is a Chrome extension that automatically translate, transcribes, and generates overlaying subtitles for videos.
 
