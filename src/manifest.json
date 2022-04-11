@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Anime (or any other video) Translator",
+  "description": "Translate anime or any other videos to generate subtitles",
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.bundle.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "contentScript.bundle.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "sarada-34.png",
+    "default_title": "Anime / Video Translator"
+  },
+  "icons": {
+    "128": "sarada-128.png"
+  },
+  "permissions": ["tabCapture", "storage", "tabs", "http://*/", "https://*/"]
+}

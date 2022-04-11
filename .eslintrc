@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["eslint:recommended", "plugin:react/recommended", "google",  "prettier"],
+  "rules": {},
+  "plugins": [
+    "react",
+    "@typescript-eslint/eslint-plugin"
+  ],
+  "env": {
+    "webextensions": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "tsconfigRootDir": "./",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
