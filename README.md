@@ -38,11 +38,11 @@ Load extension into browser by
 The project is in early infancy and the features above may not work properly.
 For now, Crunchyroll is the only site that works properly.
 
-#### Transcribing
+#### Starting a transcription
 Navigate to a Crunchyroll video, then click the extension and change the status to 'Enabled'.
 Subtitles should start appearing, if not, refresh the page and try the process again.
 
-#### Stopping an active transcribing
+#### Stopping an active transcription
 Closing the tab should and reloading the extension stop the transcribing.
 
 ## Screenshots
